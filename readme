@@ -1,0 +1,3 @@
+This project runs in Google Apps Script and serves to archive everything inside a Google Drive (i.e. if this you have a school/work account scheduled for deletion and you want to save all of your work). 
+Once everything is archived, you can use Google Takeout or a shared drive to move everything to your account!
+If there are an excessive amount of files the process may time out.

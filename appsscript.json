@@ -1,0 +1,58 @@
+{
+    "timeZone": "America/Los_Angeles",
+    "dependencies": {
+        "enabledAdvancedServices": [
+            {
+                "userSymbol": "Drive",
+                "version": "v2",
+                "serviceId": "drive"
+            },
+            {
+                "userSymbol": "DriveActivity",
+                "version": "v2",
+                "serviceId": "driveactivity"
+            },
+            {
+                "userSymbol": "Docs",
+                "version": "v1",
+                "serviceId": "docs"
+            },
+            {
+                "userSymbol": "Slides",
+                "version": "v1",
+                "serviceId": "slides"
+            },
+            {
+                "userSymbol": "Sheets",
+                "version": "v4",
+                "serviceId": "sheets"
+            },
+            {
+                "userSymbol": "drivelabels",
+                "version": "v2beta",
+                "serviceId": "drivelabels"
+            }
+        ],
+        "libraries": [
+            {
+                "userSymbol": "OAuth2",
+                "version": "43",
+                "libraryId": "1B7FSrk5Zi6L1rSxxTDgDEUsPzlukDsi4KGuTMorsTQHhGBzBkMun4iDF"
+            }
+        ]
+    },
+    "exceptionLogging": "STACKDRIVER",
+    "oauthScopes": [
+        "https://www.googleapis.com/auth/script.external_request",
+        "https://www.googleapis.com/auth/drive.readonly",
+        "https://www.googleapis.com/auth/drive",
+        "https://www.googleapis.com/auth/userinfo.email",
+        "https://www.googleapis.com/auth/spreadsheets.currentonly",
+        "https://www.googleapis.com/auth/spreadsheets"
+    ],
+    "runtimeVersion": "V8",
+    "webapp": {
+        "executeAs": "USER_ACCESSING",
+        "access": "ANYONE"
+    }
+}
